@@ -1,0 +1,159 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+body{
+    background-color: #16161A;
+}
+.navbar{
+    width:100%;
+    background-color:#755AF0;
+    color:white;
+    border:none;
+    padding:10px;
+    height:40px;
+   
+}
+
+.book-container{
+    background-color: rgb(234, 232, 238);
+    color: black;
+    padding:20px;
+    border:2px solid black;
+    border-radius: 2rem;
+    width:30%;
+    margin:30px;
+    z-index: 1;
+    display:inline-block;
+    vertical-align: top;
+    
+}
+
+.book-container h2{
+    color: rgb(88, 44, 158); 
+}
+
+.book-container h3{
+    padding-top: 5px;
+}
+.book-container p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.overlay{
+    background-color: black; 
+    opacity:0.8;
+    position:absolute; 
+    width:100%;
+    height:100%; 
+    top:0;
+    left:0;
+    z-index:1;
+    display:none;
+}
+
+.book-popup{
+    margin:20px;
+    border-radius: 1rem;
+    padding:40px;
+    background-color:white;
+    border:none;
+    color: black;
+    width:40%;
+    position: absolute;
+    z-index: 2;
+    top:20%;
+    left:20%;
+    display:none;
+
+    
+}
+.book-popup h2{
+    color: rgb(88, 44, 158);
+    margin:10px;
+    padding:2px;
+}
+
+.book-popup input{
+
+    background: transparent;
+    border-style: none;
+    border:none;
+    margin:10px;
+    width: 80%;
+    padding:8px;
+    border-bottom: solid #755AF0 2px;
+    display:block;
+}
+
+.description {
+    background: transparent;
+    border:none;
+    margin:8px;
+    width:80%;
+    padding:5px;
+    border-bottom: solid #755AF0 2px;
+}
+
+#Add,#cancel{
+    display:block;
+    color:white;
+    background-color:#755AF0;
+    padding: 8px;
+    margin:3px;
+    border: none;
+    border-radius: 2rem;
+    
+}
+
+#Add:hover{
+    background-color:  rgb(88, 44, 158);
+
+}
+#cancel:hover{
+    background-color:  rgb(88, 44, 158);
+
+}
+
+.book-container button{
+    font-weight: 2px;
+    background-color: #7f5AF0;
+    color: white;
+    border-radius: 2rem;
+    margin-top:8px;
+    padding:10px;
+    border:none;
+}
+
+.book-container button:hover
+{
+    background-color: rgb(88, 44, 158);
+}
+
+#Add #cancel:hover{
+    background-color:  rgb(88, 44, 158);
+}
+
+#Add-outer{
+    font-size: 40px;
+    background-color: #7f5AF0;
+    border-radius: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    right:30px;
+    bottom:30px;
+    z-index: 2;
+    border: none;
+}
+
+#Add-outer:hover{
+    background-color:  rgb(88, 44, 158);
+}
